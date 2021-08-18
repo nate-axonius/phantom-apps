@@ -269,7 +269,7 @@ class AxoniusConnector(BaseConnector):
             assets: List[dict] = apiobj.get_by_value(
                 value=hostname,
                 field="specific_data.data.hostname",
-                fields=addition_fields,
+                fields=additional_fields,
                 max_rows=max_rows,
                 field_null=True,
                 field_null_value=[],
